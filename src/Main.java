@@ -10,6 +10,10 @@ public class Main {
         students.add(new Student("Yasin", "Nazari", 8041));
         students.add(new Student("Mohammad", "Sedighi", 8042));
 
+        students.add(new Student("Behraz", "Fereshte", 8053));
+        students.add(new Student("Ali", "Fakheri", 8022));
+        students.add(new Student("Iman", "Bohlool", 802));
+
         // don't touch this methods
         System.out.println("Before sorting:");
         students.forEach(System.out::println);
