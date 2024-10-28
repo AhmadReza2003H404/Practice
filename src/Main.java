@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
 
     public static void addStudents(){
@@ -9,11 +12,11 @@ public class Main {
         System.out.println("Before sorting:");
         students.forEach(System.out::println);
 
-        sortStudents(students, "name");
+        Student.sortStudents(students, "name");
         System.out.println("\nAfter sorting by name:");
         students.forEach(System.out::println);
 
-        sortStudents(students, "studentnumber");
+        Student.sortStudents(students, "studentnumber");
         System.out.println("\nAfter sorting by student number:");
         students.forEach(System.out::println);
     }
