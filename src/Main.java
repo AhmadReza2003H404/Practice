@@ -6,7 +6,9 @@ public class Main {
     public static void addStudents(){
         List<Student> students = new ArrayList<>();
         // developers please change this part and don't touch other parts, just add students to list
-
+        students.add(new Student("Ahmadreza", "hosseini", 8030));
+        students.add(new Student("Yasin", "Nazari", 8041));
+        students.add(new Student("Mohammad", "Sedighi", 8042));
 
         // don't touch this methods
         System.out.println("Before sorting:");
